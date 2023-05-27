@@ -1,0 +1,23 @@
+.wrap{
+  overflow: auto;
+}
+
+.cardText {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Số dòng tối đa hiển thị */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+.cardTitle {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Số dòng tối đa hiển thị */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card {
+    height: 100%; /* Đặt chiều cao cố định cho Card */
+  }
